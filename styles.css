@@ -49,3 +49,12 @@ div{
     border: none;
     background-color: #025F70;
 }
+
+#button:hover{
+    border: 2px solid white;
+}
+
+ul li{
+    border: 2px solid;
+    background-color: lightblue;
+}

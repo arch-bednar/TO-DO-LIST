@@ -10,7 +10,7 @@
 
     <body>
         <section>
-            <h1 id="header"><b>WORK TO-DOS<b></b></h1>
+            <h1 id="header"><b>WORK TO-DOS</b></h1>
 
             <p id="p1">Enter text into input field to add items to your list</p>
 
@@ -21,9 +21,11 @@
 
         <div>
             <input id="userInput" type="text" placeholder="New item..." ></input>  
-            <button id="button" onclickclass="fas fa-pencil-alt"></button>
+            <button id="button" onclick="addToList()" class="fas fa-pencil-alt"></button>
         </div>
-          
+
+        <ul id="todo-list">
+        </ul>
 
     </body>
 </html>
